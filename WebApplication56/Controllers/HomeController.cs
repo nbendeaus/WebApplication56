@@ -6,6 +6,10 @@ using System.Web.Mvc;
 
 namespace WebApplication56.Controllers
 {
+    public class Employe
+    {
+        public int Id { get; set; }
+    }
     public class HomeController : Controller
     {
         public ActionResult Index()
