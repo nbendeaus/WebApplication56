@@ -9,6 +9,7 @@ namespace WebApplication56.Controllers
     public class Employe
     {
         public int Id { get; set; }
+        public string Name { get; set; }
     }
     public class HomeController : Controller
     {
